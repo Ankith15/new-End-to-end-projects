@@ -11,4 +11,7 @@ def index():
     return render_templet('index.html')
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
-    
+    if request.method=="GET":
+        return render_templet('home.html')
+    else:
+        data=CustomData
