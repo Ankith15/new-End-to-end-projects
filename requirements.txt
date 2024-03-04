@@ -3,7 +3,7 @@ numpy
 seaborn
 scikit-learn
 dill
-catboost
+#catboost
 xgboost
 flask
 
